@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test.dir/test.cc.o -o bin/test   -L/home/cl/ServerScript/test/googletest/build/lib  -Wl,-rpath,/home/cl/ServerScript/test/googletest/build/lib -lgtest 

@@ -1,0 +1,8 @@
+/home/cl/ServerScript/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cl/ServerScript/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cl/ServerScript/src/build/CMakeFiles/ServerScript.dir
+/home/cl/ServerScript/src/build/CMakeFiles/edit_cache.dir
+/home/cl/ServerScript/src/build/CMakeFiles/rebuild_cache.dir
+/home/cl/ServerScript/test/build/CMakeFiles/test.dir
+/home/cl/ServerScript/test/build/CMakeFiles/edit_cache.dir
+/home/cl/ServerScript/test/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+Welcome()
+{
+    string1="null"
+    string2="null"
+
+    Listen(string1 + 5)
+
+    Speak(string1)
+
+    Listen(string2 + 5)
+
+    Speak(string1 + string2)
+
+    Listen(wrongParameter)
+}
+
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ServerScript"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cl/ServerScript/src/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ServerScript">
+				<Option output="/home/cl/ServerScript/src/build/bin/ServerScript" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cl/ServerScript/src/antlr_runtime/include/antlr4-runtime"/>
+					<Add directory="/home/cl/ServerScript/src/antlr_runtime/include"/>
+					<Add directory="/home/cl/ServerScript/src/antlr_generate"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 ServerScript"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ServerScript/fast">
+				<Option output="/home/cl/ServerScript/src/build/bin/ServerScript" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cl/ServerScript/src/antlr_runtime/include/antlr4-runtime"/>
+					<Add directory="/home/cl/ServerScript/src/antlr_runtime/include"/>
+					<Add directory="/home/cl/ServerScript/src/antlr_generate"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 ServerScript/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/cl/ServerScript/src/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerBaseListener.cpp">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerBaseListener.h">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerBaseVisitor.cpp">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerBaseVisitor.h">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerLexer.cpp">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerLexer.h">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerListener.cpp">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerListener.h">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerParser.cpp">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerParser.h">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerVisitor.cpp">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/antlr_generate/ServerVisitor.h">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/main.cpp">
+			<Option target="ServerScript"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/cl/ServerScript/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

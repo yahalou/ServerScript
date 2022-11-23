@@ -1,0 +1,7 @@
+Using:./ServerScript scriptFile dataFile phoneNumber
+Example:/home/cl/ServerScript/src/build/bin/ServerScript /home/cl/ServerScript/test/testScript/t1.svr /home/cl/ServerScript/test/data.csv 111
+
+scriptFile 脚本文件。
+dataFile 数据库文件。
+phoneNumber 客户的电话号码。
+

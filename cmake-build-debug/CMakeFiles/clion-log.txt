@@ -1,0 +1,5 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/cl/ServerScript/cmake-build-debug && /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /home/cl/ServerScript -B /home/cl/ServerScript/cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cl/ServerScript/cmake-build-debug
+CMake File API: \\wsl$\Ubuntu-22.04\home\cl\ServerScript\cmake-build-debug: target-ServerScript-Debug-19eb2c6d44fb461aec85.json: Cannot resolve compiler path '/usr/bin/c++'

@@ -1,0 +1,23 @@
+Welcome()
+{
+    Speak("调用Welcome")
+    Func1()
+}
+
+Func1()
+{
+    Speak("调用Func1")
+    Func2()
+}
+
+Func2()
+{
+    Speak("调用Func2")
+    Func3()
+}
+
+Func3()
+{
+    Speak("调用Func3")
+}
+

@@ -1,0 +1,4 @@
+/mnt/c/Users/26033/Desktop/cmakeTest/googletest/build/CMakeFiles/gtest.dir
+/mnt/c/Users/26033/Desktop/cmakeTest/googletest/build/CMakeFiles/gtest_main.dir
+/mnt/c/Users/26033/Desktop/cmakeTest/googletest/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/26033/Desktop/cmakeTest/googletest/build/CMakeFiles/rebuild_cache.dir

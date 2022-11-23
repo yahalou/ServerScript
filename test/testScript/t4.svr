@@ -1,0 +1,10 @@
+Welcome()
+{
+    name="cl"
+    deposit="0"
+    if(name=="cl") then Listen(deposit + 10)
+    Speak("您要充值：" + deposit)
+    Exit()
+}
+
+

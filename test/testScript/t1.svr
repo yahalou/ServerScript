@@ -1,0 +1,59 @@
+name = "null"
+amount = "null"
+reply="null"
+
+Welcome()
+{
+    Load(name + amount)
+
+    Speak(name + "先生您好，请问有什么可以帮您?")
+
+    Listen(reply + 10)
+
+    if (reply=="投诉") then complainProc()
+    if (reply=="账单") then billProc()
+    silenceProc()
+    defaultProc()
+}
+
+complainProc()
+{
+    Listen(reply + 10)
+
+    Speak("您的意见是我们改进工作的动力，请问您还有什么补充?")
+
+    Listen(reply + 10)
+
+    thanks()
+}
+
+thanks()
+{
+    Speak("感谢您的来电，再见")
+
+    Exit()
+}
+
+billProc()
+{
+    Speak("您的本月账单是" + amount + "元，感谢您的来电，再见")
+
+    Exit()
+}
+
+silenceProc()
+{
+    Speak("听不清，请您大声一点可以吗")
+    Listen(reply + 10)
+    if (reply=="投诉") then complainProc()
+    if (reply=="账单") then billProc()
+    silenceProc()
+    defaultProc()
+}
+
+defaultProc()
+{
+    thanks()
+}
+
+

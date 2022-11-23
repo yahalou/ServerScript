@@ -1,0 +1,22 @@
+name = "null"
+amount = "null"
+reply="null"
+
+Welcome()
+{
+    Speak(name + "先生您好，请问有什么可以帮您?")
+
+    Speak(name + amount)
+
+    Speak("您的回复为:" + reply)
+
+    tmp="okok"
+
+    Speak(tmp)
+
+    Speak()
+
+    Speak(undefinedVar)
+}
+
+
