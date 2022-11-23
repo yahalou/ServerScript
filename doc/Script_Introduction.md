@@ -54,6 +54,7 @@ SL_COMMENT
 # 例子
 
 ```c
+// 变量使用前必须先声明
 name = "null"
 amount = "null"
 reply="null"
