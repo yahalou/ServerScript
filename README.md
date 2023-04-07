@@ -1,8 +1,6 @@
 # 介绍
 
-​	**ServerScript**是一种领域特定语言（Domain Specific Language，DSL），能够描述在线客服机器人的自动应答逻辑，并设计实现一个解释器解释执行这个脚本，可以根据用户的不同输入，根据脚本的逻辑设计给出相应的应答。
-
-
+​ **ServerScript**是一种领域特定语言（Domain Specific Language，DSL），能够描述在线客服机器人的自动应答逻辑，并设计实现一个解释器解释执行这个脚本，可以根据用户的不同输入，根据脚本的逻辑设计给出相应的应答。
 
 # 编译运行
 
@@ -14,25 +12,17 @@ make
 src/build/bin/ServerScript
 ```
 
-
-
 # 语言手册
 
 见[Script_Introduction](doc/Script_Introduction.md)
 
-
-
 # 代码介绍
 
-​	本项目采用 **c++** 编写，**cmake** 构建，语法分析部分使用 **antlr4** 库，代码测试部分使用 **googletest** 。
-
-
+​ 本项目采用 **c++** 编写，**cmake** 构建，语法分析部分使用 **antlr4** 库，代码测试部分使用 **googletest** 。
 
 ## 代码思路
 
 见[Code_Analysis](doc/Code_Analysis.md)
-
-
 
 ## 模块
 
@@ -83,11 +73,9 @@ src/build/bin/ServerScript
 
 [测试脚本](/test/generate.sh)
 
-测试了查询账单功能，投诉功能，查找数据库功能，帮助文档，变量声明和Speak函数，Listen函数，if...else，函数调用
+测试了查询账单功能，投诉功能，查找数据库功能，帮助文档，变量声明和 Speak 函数，Listen 函数，if...else，函数调用
 
 测试结果输出至[result.txt](/test/result.txt)
-
-
 
 ## 命令行参数
 
@@ -99,13 +87,3 @@ scriptFile 脚本文件。
 dataFile 数据库文件。
 phoneNumber 客户的电话号码。
 ```
-
-
-
-# 作者信息
-
-姓名：陈龙
-
-班级：2020211309
-
-学号：2020211553
